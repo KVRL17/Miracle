@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>concentric squares</title>
+<style>
+   .square {
+position : center;
+width : 200px;
+
+height : 200px;
+border : 2px;
+}
+
+   .inner square{
+position : absolute;
+top : 50%;
+left : 50%;
+transform : translate(-50%, -50%);
+
+width : 80%;
+height : 80%;
+border : 2px;
+}
+</style>
+</head> 
+   <body>
+   <div class="inner-square">
+      <div class="inner-square">
+         <div class="inner-square">
+             <div class="inner-square">
+                  <div class="inner-square">
+              </div>
+          </div>
+       </div>
+     </div>
+  </div>
+</body>
+
+</html>
+
